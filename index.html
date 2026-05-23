@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karol — Site Pessoal</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo">Karolaine Carvalho</a>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav">
+        <a href="#quem-sou">Quem eu sou</a>
+        <a href="#soft-skills">Soft Skills</a>
+        <a href="#hard-skills">Hard Skills</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#experiencias">Experiências</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container hero__grid">
+        <div class="hero__foto-wrap">
+          <img
+            src="images/karolaine.jpeg"
+            alt="Foto de Karolaine Carvalho"
+            class="hero__foto"
+            width="320"
+            height="400"
+          >
+        </div>
+        <div class="hero__content">
+          <p class="hero__tag">Bem-vinda ao meu portfólio</p>
+          <h1>Olá, eu sou <span class="highlight">Karolaine Carvalho</span></h1>
+          <p class="hero__text">
+            Profissional dedicada, com experiência em saúde, administração e atendimento.
+            Conheça minha trajetória, habilidades e formações.
+          </p>
+          <a href="#quem-sou" class="btn">Conhecer mais</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="quem-sou" class="section">
+      <div class="container">
+        <h2 class="section__title">Quem eu sou</h2>
+        <div class="card card--featured sobre">
+          <img
+            src="images/karolaine.jpeg"
+            alt="Karolaine Carvalho — retrato"
+            class="sobre__foto"
+            width="200"
+            height="200"
+          >
+          <div class="sobre__texto">
+            <p>
+              Meu nome é Karolaine Carvalho. Sou estudante de Administração e atuo na área administrativa, estou sempre buscando aprender e me desenvolver tanto pessoal quanto profissionalmente.
+            </p>
+            <p>
+              Sou uma pessoa organizada, responsável e dedicada aos meus objetivos. Nas horas vagas, gosto de ler, assistir séries, tomar um bom café e conhecer cafeterias, pois acredito que esses momentos proporcionam lazer, inspiração e novas experiências.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="soft-skills" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Soft Skills</h2>
+        <ul class="skills-grid">
+          <li class="skill-chip">Comunicação eficaz</li>
+          <li class="skill-chip">Empatia</li>
+          <li class="skill-chip">Organização</li>
+          <li class="skill-chip">Responsabilidade</li>
+          <li class="skill-chip">Proatividade</li>
+          <li class="skill-chip">Comprometimento</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="hard-skills" class="section">
+      <div class="container">
+        <h2 class="section__title">Hard Skills</h2>
+        <ul class="skills-grid skills-grid--hard">
+          <li class="skill-chip skill-chip--outline">Atendimento ao paciente</li>
+          <li class="skill-chip skill-chip--outline">Agendamento e gestão de consultas</li>
+          <li class="skill-chip skill-chip--outline">Organização de prontuários</li>
+          <li class="skill-chip skill-chip--outline">Recebimento e controle de pagamentos</li>
+          <li class="skill-chip skill-chip--outline">Gestão de agenda médica</li>
+          <li class="skill-chip skill-chip--outline">Informática básica</li>
+          <li class="skill-chip skill-chip--outline">Suporte administrativo</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="cursos" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Cursos</h2>
+        <ul class="course-list">
+          <li>
+            <span class="course-list__icon" aria-hidden="true">📚</span>
+            <span>Informática básica - Empresa Mais Curso Interativos</span>
+          </li>
+          <li>
+            <span class="course-list__icon" aria-hidden="true">📚</span>
+            <span>Empreendedorismo - Senac</span>
+          </li>
+          <li>
+            <span class="course-list__icon" aria-hidden="true">📚</span>
+            <span>Estratégia de negócios - Fundação Bradesco</span>
+          </li>
+          <li>
+            <span class="course-list__icon" aria-hidden="true">🩺</span>
+            <span>Técnico em Enfermagem - Instituto Ana Nery </span>
+          </li>
+          <li>
+            <span class="course-list__icon" aria-hidden="true">🥗</span>
+            <span>Técnico em Nutrição - Centro Estadual de Educação Profissional em Saúde Adélia Teixeira</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experiencias" class="section">
+      <div class="container">
+        <h2 class="section__title">Experiências Profissionais</h2>
+        <div class="timeline">
+          <article class="timeline__item timeline__item--current">
+            <div class="timeline__badge">Atual</div>
+            <h3>Secretária — Clínica Dra. Patrícia Marques</h3>
+            <p class="timeline__period">Desde 30/04/2025</p>
+            <p class="timeline__role">Clínica dermatológica</p>
+            <ul>
+              <li>Atendimento presencial e online aos pacientes</li>
+              <li>Agendamento e confirmação de consultas</li>
+              <li>Organização de prontuários e documentos</li>
+              <li>Recebimento de pagamentos</li>
+              <li>Gestão da agenda médica e acompanhamento de demandas dos pacientes</li>
+            </ul>
+          </article>
+
+          <article class="timeline__item">
+            <h3>Experiência de paciente — Traqueostomia e Gastrostomia</h3>
+            <p class="timeline__period">Abril/2022 — Novembro/2022</p>
+          </article>
+
+          <article class="timeline__item">
+            <h3>Técnica em Nutrição e Dietética — FLEM</h3>
+            <p class="timeline__period">Agosto/2017 — Agosto/2020</p>
+          </article>
+
+          <article class="timeline__item">
+            <h3>Auxiliar Administrativo — SEC Cetep/VC</h3>
+            <p class="timeline__period">Agosto/2017 — Agosto/2020</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">&copy; 2026 Karolaine</p>
+      <a
+        href="https://www.instagram.com/karolainecs18"
+        class="footer__instagram"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Instagram de Karolaine Carvalho"
+        title="Instagram"
+      >
+        <svg class="footer__instagram-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path fill="currentColor" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/>
+        </svg>
+      </a>
+    </div>
+  </footer>
+
+  <button type="button" id="btn-avaliar" class="fab" aria-label="Avaliar o site" title="Avaliar o site">
+    <span class="fab__icon" aria-hidden="true">⭐</span>
+    <span class="fab__text">Avaliar</span>
+  </button>
+
+  <div id="modal-overlay" class="modal-overlay" hidden aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal__decor" aria-hidden="true"></div>
+      <div class="modal__icon" id="modal-icon" aria-hidden="true">✨</div>
+      <h2 class="modal__title" id="modal-title"></h2>
+      <p class="modal__text" id="modal-text"></p>
+      <div class="modal__body" id="modal-body"></div>
+      <div class="modal__actions" id="modal-actions"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
